@@ -1,3 +1,5 @@
 cvzone==1.5.2
 opencv_python_headless==4.5.4.60
 streamlit==1.10.0
+freeglut3-dev
+libgtk2.0-dev
