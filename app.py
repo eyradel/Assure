@@ -9,7 +9,7 @@ hide_streamlit_style = """
             <html><body><p></p><body/></html>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
+import cvzone
 from cvzone.FaceDetectionModule import FaceDetector
 detector = FaceDetector()
 video = cv2.VideoCapture(0)
